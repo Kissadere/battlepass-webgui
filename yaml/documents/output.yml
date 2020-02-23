@@ -1,0 +1,20 @@
+---
+1:
+  2:
+    type: consume
+    variable: apple
+    name: Apple eater
+    requiredProgress: "5"
+    expWorth: "1000"
+    exclusive: premium
+    item:
+      item: minecraft_apple:0
+      name: Apple eater
+      lore:
+      - Hello
+      - World
+      - Meow
+      - '&bAVAILABLE FOR PREMIUMS ONLY'
+      - '&fProgress:&7 %status% / 5'
+      - '&fExperience reward:&7 1000'
+...

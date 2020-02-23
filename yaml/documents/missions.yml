@@ -1,0 +1,40 @@
+---
+1:
+  1:
+    type: break
+    variable: stone
+    name: Stonecutter
+    requiredProgress: "100"
+    expWorth: "1000"
+    exclusive: free
+    item:
+      item: minecraft_stone:0
+      name: Stoneutter
+      lore:
+      - Custom lore first line
+      - Custom lore second line
+      - Custom lore third line
+      - '&aAVAILABLE FOR EVERYONE'
+      - '&fProgress:&7 %status% / 100'
+      - '&fExperience reward:&7 1000'
+...
+---
+1:
+  2:
+    type: consume
+    variable: apple
+    name: Apple eater
+    requiredProgress: "5"
+    expWorth: "1000"
+    exclusive: premium
+    item:
+      item: minecraft_apple:0
+      name: Apple eater
+      lore:
+      - Hello
+      - World
+      - Meow
+      - '&bAVAILABLE FOR PREMIUMS ONLY'
+      - '&fProgress:&7 %status% / 5'
+      - '&fExperience reward:&7 1000'
+...

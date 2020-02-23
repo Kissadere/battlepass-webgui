@@ -1,0 +1,7 @@
+.row.d-lg-flex.justify-content-lg-center {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.06);
+  background-color: #f8f4f4;
+  width: 70%;
+}
+
